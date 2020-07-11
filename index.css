@@ -2,6 +2,18 @@
 	font-family: 'Whale';
 	src: url('font/Whale.ttf');
 }
+@font-face{
+	font-family: 'Cross';
+	src: url('font/Cross.ttf');
+}
+@font-face{
+	font-family: 'CFRevolution';
+	src: url('font/CFRevolution.ttf');
+}
+@font-face{
+	font-family: 'Metamorphous';
+	src: url('font/Metamorphous.ttf');
+}
 body {
 	overflow-y: scroll;
 }
@@ -44,6 +56,7 @@ header .header-context a:visited{
 .category-context {
 	display: inline-block;
 	font-size: 20px;
+	font-family: Metamorphous;
 	padding: 10px 10px 10px 10px;
 	margin-bottom: 8px;
 	margin-left: 10px;
