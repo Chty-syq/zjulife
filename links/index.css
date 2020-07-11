@@ -1,0 +1,29 @@
+.Title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+	font-family: Times New Roman;
+}
+.HR{
+    margin-top: 40px;
+    height: 5;
+    box-shadow: 0 0 10px 1px black;
+}
+.Link{
+    margin-left: 200px;
+    font-size: 20px;
+}
+a:link{
+	transition: all ease 0.3s;
+	position:relative;
+	!text-decoration:none
+}
+a:hover{
+	padding:0 1em;
+	color:#333333;
+	background:rgba(0,0,0,0);
+	font-weight:bold;
+}
+a:visited{
+	color: #0000FF;
+}

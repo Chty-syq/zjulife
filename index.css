@@ -1,0 +1,59 @@
+header{
+    display: flex; 
+	flex-direction: row-reverse;
+	background-color: #FFFFFF;
+}
+.header-context{
+	font-size: 20;
+	margin: 20px;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+.header-context a:link{
+  	transition: all ease 0.3s;
+	position:relative;
+	!text-decoration:none
+}
+.header-context a:hover{
+	padding:0 0em;
+	color:#333333;
+	background:rgba(0,0,0,0);
+	font-weight:bold;
+}
+.header-context a:visited{
+  	color: #0000FF;
+}
+.Title{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+  	font-family: Times New Roman;
+}
+.H2{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.HR{
+    margin-top: 40px;
+    height: 5;
+    box-shadow: 0 0 10px 1px black;
+}
+.Link{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.Link a:link{
+	transition: all ease 0.3s;
+	position:relative;
+	!text-decoration:none
+}
+.Link a:hover{
+	padding:0 1em;
+	color:#333333;
+	background:rgba(0,0,0,0);
+	font-weight:bold;
+}
+.Link a:visited{
+  color: #0000FF;
+}
