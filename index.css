@@ -23,24 +23,22 @@ header{
 	background-color: #FFFFFF;
 }
 header .header-context{
-	font-size: 20;
-	margin: 20px;
-	margin-left: 10px;
+	margin: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	padding: 10px;
 	color: #FFFFFF;
+	border-radius: 20%;
+	transition: all ease 0.3s;
+}
+header .header-context a{
+	font-size: 20px;
+	color: black;
 }
 header .header-context a:link{
   	transition: all ease 0.3s;
 	position:relative;
-	!text-decoration:none
-}
-header .header-context a:hover{
-	padding:0 0em;
-	color:#333333;
-	background:rgba(0,0,0,0);
-	font-weight:bold;
-}
-header .header-context a:visited{
-  	color: #0000FF;
+	text-decoration:none
 }
 .title{
     text-align: center;

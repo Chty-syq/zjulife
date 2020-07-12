@@ -82,35 +82,47 @@
             </div>
         </div>
         <!--计算机-->
-        <div class="category">
+        <div class="category-page">
             咕咕咕。。。
         </div>
     </body>
+	<script>
+		var e = document.getElementsByClassName("category-context");
+		var b = document.getElementsByClassName("category-page");
+		for (let i = 1; i < e.length; ++i)  b[i].style.display = "none";
+		for (let i = 0; i < e.length; ++i) {
+			e[i].onmouseover = function () {
+				e[i].style.background = "#FFE4B5";
+				e[i].style.cursor = "pointer";
+			}
+			e[i].onmouseout = function () {
+				e[i].style.background = "white";
+				e[i].style.cursor = "default";
+			}
+			e[i].onclick = function () {
+				for (let j = 0; j < b.length; ++j) {
+					if (j == i) {
+						b[j].style.display = "";
+					}
+					else {
+						b[j].style.display = "none";
+					}
+				}
+			}
+		}
+		var g = document.getElementsByClassName("header-context");
+		for (let i = 0; i < g.length; ++i) {
+			g[i].onmouseover = function () {
+				g[i].style.background = "#FFE4B5";
+				g[i].style.cursor = "pointer";
+			}
+			g[i].onmouseout = function () {
+				g[i].style.background = "white";
+				g[i].style.cursor = "default";
+			}
+		}
+	</script>
 </html>
 
 
-<script>
-    var e = document.getElementsByClassName("category-context");
-    for (let i = 0; i < e.length; ++i) {
-        e[i].onmouseover = function () {
-            e[i].style.background = "#FFE4B5";
-            e[i].style.cursor = "pointer";
-        }
-        e[i].onmouseout = function () {
-            e[i].style.background = "white";
-            e[i].style.cursor = "default";
-        }
-        e[i].onclick = function () {
-            var b = document.getElementsByClassName("category-page");
-            for (let j = 0; j < b.length; ++j) {
-                if (j == i) {
-                    b[j].style.display = "";
-                }
-                else {
-                    b[j].style.display = "none";
-                }
-            }
-        }
-    }
-</script>
 
